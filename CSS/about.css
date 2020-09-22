@@ -61,6 +61,11 @@ body {
     margin-left: 139px;
   }
 
+  .my-div{
+    padding-left: 0px;
+    padding-right:0px;
+}
+
   .section1-text h2{
     margin-left: 139px;
     font-size: 17px;
@@ -145,9 +150,19 @@ body {
 
 }
 
+.card-title{
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
 .card-text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
     margin-left: 16px;
     margin-right: 16px;
+    color: #333333;
 }
 
 /* footer */
@@ -170,3 +185,548 @@ body {
   .footer-icon{
     font-size: 40px;
 }
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .section1-text h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 16px;
+      }
+
+      .section1-text h2{
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 16px;
+      } 
+    
+      .section1-text p{
+          margin-top: 16px;
+          margin-left: 16px;
+        font-size: 15px;
+        line-height: 1.8;
+}
+
+.about-picture{
+    width: 470px;
+
+  }
+
+.cats-div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+  .cats{
+    width: 470px;
+}
+
+.section2-text h2{
+    padding-top: 24px;
+    padding-left: 0px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.section2-text p{
+  padding-left: 0px;
+  margin-top: 16px;
+margin-right: 16px;
+font-size: 15px;
+} 
+
+#skills{
+    padding-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#skills h2{
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.card-img-top{
+    height: 60px;
+    width: 80px;
+    margin-top: 16px;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .section1-text h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 16px;
+      }
+
+      .section1-text h2{
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 16px;
+      } 
+    
+      .section1-text p{
+          margin-top: 16px;
+          margin-left: 16px;
+        font-size: 15px;
+        line-height: 1.8;
+}
+
+.about-picture{
+    width: 470px;
+
+  }
+
+.cats-div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+  .cats{
+    width: 470px;
+}
+
+.section2-text h2{
+    padding-top: 24px;
+    padding-left: 0px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.section2-text p{
+  padding-left: 0px;
+  margin-top: 16px;
+margin-right: 16px;
+font-size: 15px;
+} 
+
+#skills{
+    padding-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#skills h2{
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.card-img-top{
+    height: 60px;
+    width: 80px;
+    margin-top: 16px;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px){
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .section1-text h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 16px;
+      }
+
+      .section1-text h2{
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 16px;
+      } 
+    
+      .section1-text p{
+          margin-top: 16px;
+          margin-left: 16px;
+        font-size: 15px;
+        line-height: 1.8;
+}
+
+.about-picture{
+    width: 700px;
+
+  }
+
+.cats-div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+  .cats{
+    width: 700px;
+}
+
+.section2-text h2{
+    padding-top: 24px;
+    padding-left: 0px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.section2-text p{
+  padding-left: 0px;
+  margin-top: 16px;
+margin-right: 16px;
+font-size: 15px;
+} 
+
+#skills{
+    padding-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#skills h2{
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.card-img-top{
+    height: 60px;
+    width: 80px;
+    margin-top: 16px;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 992px){
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .section1-text h1{
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+
+      .section1-text h2{
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+      } 
+    
+      .section1-text p{
+        text-align: left;
+          margin-top: 16px;
+          margin-left: 24px;
+        margin-right: 24px;
+        font-size: 17px;
+        line-height: 1.8;
+}
+
+.about-picture{
+    width: 600px;
+
+  }
+
+.cats-div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+  .cats{
+    width: 600px;
+}
+
+.section2-text h2{
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 24px;
+  margin-right: 24px;
+  font-size: 20px;
+}
+
+.section2-text p{
+    text-align: left;
+  padding-left: 24px;
+  margin-top: 16px;
+margin-right: 24px;
+font-size: 17px;
+} 
+
+#skills{
+    padding-top: 80px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#skills h2{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.card-img-top{
+    height: 80px;
+    width: 100px;
+    margin-top: 16px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 17px;
+}
+    
+}
+
+@media only screen and (min-width: 1200px){
+    body {
+        background-color: #FCF8F4;
+    }
+    /* Nav Bar */ 
+    .navbar {
+        padding-top: 40px;
+        margin-left: 139px;
+        margin-right: 143px;
+        background-color: #FCF8F4;
+    }
+    .navbar-brand {
+        font-family: 'Yeseva One', cursive;
+        font-size: 30px;
+        color: #333333;
+    }
+    
+    .nav-item {
+        font-family: 'Mulish', sans-serif;
+        font-size: 17px;
+        color:#616161;
+    }
+    
+    .dropdown-menu{
+        background-color: #FCF8F4;
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .dropdown-toggle::after {
+        display: none;
+    }
+    
+    .dropdown-item:hover{
+        background-color:transparent;
+        color: #666;
+        transform: scale(1.05,1.05);
+        transition: all 2 ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #666;
+        transform: scale(1.05,1.05);
+        transition: all 0.5 ease-out;
+      }
+    
+      /* short bio */ 
+    
+      .section1{
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 40px;
+          background-color: #E8E1CE;
+      }
+    
+      .my-div{
+          padding-left: 0px;
+          padding-right:0px;
+      }
+      .section1-text h1{
+        text-align: left;
+        font-family: 'Mulish', sans-serif;
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 24px;
+        margin-top: 80px;
+        margin-left: 139px;
+      }
+    
+      .section1-text h2{
+        text-align: left;
+        margin-left: 139px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+        color: #333333;
+      } 
+    
+      .section1-text p{
+        text-align: left;
+          margin-top: 32px;
+        margin-left: 139px;
+        font-size: 17px;
+        line-height: 1.8;
+        font-family: 'Mulish', sans-serif;
+        color: #333333;
+      } 
+    
+      .name{
+        font-family: 'Yeseva One', cursive;
+        color: #537A77;
+      }
+      .about-picture{
+       width: 720px;
+      }
+    
+      .section2{
+        background-color: #E8E1CE;
+      }
+    
+      .section2-text h2{
+        text-align: left;
+          padding-top: 80px;
+          padding-left: 40px;
+        margin-right: 143px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+        color: #333333;
+      }
+    
+      .section2-text p{
+        text-align: left;
+        padding-left: 40px;
+        margin-top: 32px;
+      margin-right: 143px;
+      font-size: 17px;
+      line-height: 1.8;
+      font-family: 'Mulish', sans-serif;
+      color: #333333;
+    } 
+    
+    .cats{
+        width: 735px;
+    }
+    
+    /*skills*/
+    
+    #skills{
+        padding-top: 80px;
+        margin-left: 139px;
+        margin-right: 143px;
+    }
+    
+    #skills h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+        color: #333333;
+        margin-bottom: 40px;
+    }
+    .card{
+        background-color:#FCF8F4;
+        border-color: transparent;
+    }
+    
+    .card-img-top{
+        height: 80px;
+        width: 100px;
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .card-title{
+        font-family: 'Mulish', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+    }
+    
+    .card-text{
+        font-family: 'Mulish', sans-serif;
+        font-size: 17px;
+        margin-left: 16px;
+        margin-right: 16px;
+        color: #333333;
+    }
+    
+    /* footer */
+    .footer-content {
+        color: #333333;
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin: 50px 0 50px;
+        padding-top: 5%;
+      }
+      
+      .copyright {
+        font-family: 'Mulish', sans-serif;
+        font-size: 13px;
+        color: #8f8f8f;
+        padding: 1%;
+      }
+    
+      .footer-icon{
+        font-size: 40px;
+    }
+}
+
