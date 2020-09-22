@@ -1,0 +1,340 @@
+body {
+    margin-left: 139px;
+    margin-right: 143px;
+    background-color: #FCF8F4;
+}
+/* Nav Bar */ 
+
+.navbar {
+    padding-top: 40px;
+    background-color: #FCF8F4;
+}
+.navbar-brand {
+    font-family: 'Yeseva One', cursive;
+    font-size: 38px;
+    color: #333333;
+}
+
+.nav-item {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    color:#616161;
+}
+
+.dropdown-menu{
+    background-color: #FCF8F4;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item:hover{
+    background-color:transparent;
+    color: #666;
+    transform: scale(1.05,1.05);
+    transition: all 2 ease-out;
+}
+
+.nav-link:hover {
+    color: #666;
+    transform: scale(1.05,1.05);
+    transition: all 0.5 ease-out;
+  }
+
+  /* hero */ 
+
+  .jumbotron {
+    background-color: #FCF8F4;
+  }
+
+  .jumbotron h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 24px;
+  }
+
+  .name{
+    font-family: 'Yeseva One', cursive;
+    color: #537A77;
+  }
+
+  .jumbotron h2{
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.jumbotron p{
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  color: #616161;
+  margin-bottom: 40px;
+}
+
+.btn{
+    color: #333333;
+    font-family: 'Mulish', sans-serif;
+  font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #537A77 ;
+}
+
+/* projects */ 
+.project-mockup{
+    width: 1098px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-mockup:hover{
+    cursor: pointer;
+}
+
+.project-text{
+    color: #333333;
+    font-family: 'Mulish', sans-serif;
+  font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 96px;
+}
+
+.project-text:hover{
+    color: #666;
+    transform: scale(1.05,1.05);
+    transition: all 0.5 ease-out;
+}
+
+/* footer */
+.footer-content {
+    color: #333333;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0 50px;
+    padding-top: 5%;
+  }
+  
+  .copyright {
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    color: #8f8f8f;
+    padding: 1%;
+  }
+  
+  .footer-icon{
+      font-size: 40px;
+  }
+
+
+
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+.jumbotron{
+    padding-bottom: 40px;
+}
+    .jumbotron h1{
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+
+      .jumbotron h2{
+        font-size: 17px;
+        margin-bottom: 8px;
+      }
+
+      .jumbotron p{
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+
+    .btn{
+        margin-top: 16px;
+      font-size: 13px;
+    }
+
+    .project-mockup {
+        width: 500px;
+    }
+
+    .project-text{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    body {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+.jumbotron{
+    padding-bottom: 40px;
+}
+    .jumbotron h1{
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+
+      .jumbotron h2{
+        font-size: 17px;
+        margin-bottom: 8px;
+      }
+
+      .jumbotron p{
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+
+    .btn{
+        margin-top: 16px;
+      font-size: 13px;
+    }
+
+    .project-mockup {
+        width: 600px;
+    }
+
+    .project-text{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .jumbotron h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron h2{
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron p{
+        font-size: 17px;
+        margin-bottom: 16px;
+      }
+
+    .btn{
+        margin-top: 24px;
+      font-size: 15px;
+    }
+
+    .project-mockup {
+        width: 700px;
+    }
+
+    .project-text{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px){
+    body {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .jumbotron h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron h2{
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron p{
+        font-size: 17px;
+        margin-bottom: 16px;
+      }
+
+    .btn{
+        margin-top: 24px;
+      font-size: 15px;
+    }
+
+    .project-mockup {
+        width: 910px;
+    }
+
+    .project-text{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body {
+        margin-left: 139px;
+        margin-right: 142px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .jumbotron h1{
+        font-size: 30px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron h2{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+
+      .jumbotron p{
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+    .btn{
+        margin-top: 24px;
+      font-size: 17px;
+    }
+
+    .project-mockup {
+        width: 1100px;
+    }
+
+    .project-text{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
