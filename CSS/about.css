@@ -94,11 +94,12 @@ body {
 
   .section2{
     background-color: #E8E1CE;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .section2-text h2{
       padding-top: 40px;
-      padding-left: 40px;
     margin-right: 143px;
     font-size: 20px;
     font-weight: bold;
@@ -107,7 +108,6 @@ body {
   }
 
   .section2-text p{
-    padding-left: 40px;
     margin-top: 32px;
   margin-right: 143px;
   font-size: 17px;
@@ -392,7 +392,7 @@ font-size: 15px;
 }
 
 .about-picture{
-    width: 700px;
+    width: 550px;
 
   }
 
@@ -402,7 +402,7 @@ font-size: 15px;
 }
 
   .cats{
-    width: 700px;
+    width: 550px;
 }
 
 .section2-text h2{
