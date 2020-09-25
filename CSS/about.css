@@ -9,46 +9,45 @@ img{
 /* Nav Bar */ 
 
 .navbar {
-  padding-top: 24px;
-  background-color: #FCF8F4;
+    padding-top: 24px;
+    background-color: #FCF8F4;
 }
 .navbar-brand {
-  font-family: 'Yeseva One', cursive;
-  font-size: 38px;
-  color: #333333;
+    font-family: 'Yeseva One', cursive;
+    font-size: 38px;
+    color: #333333;
 }
 
 .nav-item {
-  font-family: 'Mulish', sans-serif;
-  font-size: 17px;
-  color:#616161;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    color:#616161;
 }
 
 .dropdown-menu{
-  background-color: #FCF8F4;
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FCF8F4;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dropdown-toggle::after {
-  display: none;
+    display: none;
 }
-
 .navbar-toggler{
-border-color: transparent;
+  border-color: transparent;
 }
 
 .dropdown-item:hover{
-  background-color:transparent;
-  color: #666;
-  transform: scale(1.05,1.05);
-  transition: all 2 ease-out;
+    background-color:transparent;
+    color: #666;
+    transform: scale(1.05,1.05);
+    transition: all 2 ease-out;
 }
 
 .nav-link:hover {
-  color: #666;
-  transform: scale(1.05,1.05);
-  transition: all 0.5 ease-out;
-}
+    color: #666;
+    transform: scale(1.05,1.05);
+    transition: all 0.5 ease-out;
+  }
 
   /* short bio */ 
 
@@ -552,7 +551,48 @@ font-size: 17px;
         background-color: #FCF8F4;
     }
     /* Nav Bar */ 
-   
+    .navbar {
+        padding-top: 24px;
+        margin-left: 139px;
+        margin-right: 143px;
+        padding-bottom: 0px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+        padding-bottom: 0px;
+
+    }
+    
+    .nav-item {
+        font-family: 'Mulish', sans-serif;
+        font-size: 17px;
+        color:#616161;
+    }
+    
+    .dropdown-menu{
+        background-color: #FCF8F4;
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .dropdown-toggle::after {
+        display: none;
+    }
+    
+    .dropdown-item:hover{
+        background-color:transparent;
+        color: #666;
+        transform: scale(1.05,1.05);
+        transition: all 2 ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #666;
+        transform: scale(1.05,1.05);
+        transition: all 0.5 ease-out;
+      }
+    
+      /* short bio */ 
+    
       .section1{
           margin-left: 0px;
           margin-right: 0px;
