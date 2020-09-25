@@ -2,11 +2,14 @@ body {
     background-color: #FCF8F4;
 }
 /* Nav Bar */ 
+img{
+  max-width: 100%;
 
+  height: auto;
+}
 .navbar {
     padding-top: 40px;
-    margin-left: 139px;
-    margin-right: 143px;
+
     background-color: #FCF8F4;
 }
 .navbar-brand {
@@ -94,12 +97,11 @@ body {
 
   .section2{
     background-color: #E8E1CE;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .section2-text h2{
       padding-top: 40px;
+      padding-left: 40px;
     margin-right: 143px;
     font-size: 20px;
     font-weight: bold;
@@ -108,6 +110,7 @@ body {
   }
 
   .section2-text p{
+    padding-left: 40px;
     margin-top: 32px;
   margin-right: 143px;
   font-size: 17px;
@@ -221,7 +224,8 @@ body {
 }
 
 .about-picture{
-    width: 400px;
+    width: auto;
+    max-width: 100%;
 
   }
 
@@ -231,7 +235,8 @@ body {
 }
 
   .cats{
-    width: 400px;
+    width: auto;
+    max-width: 100%;
 }
 
 .section2-text h2{
@@ -392,7 +397,7 @@ font-size: 15px;
 }
 
 .about-picture{
-    width: 550px;
+    width: 700px;
 
   }
 
@@ -402,7 +407,7 @@ font-size: 15px;
 }
 
   .cats{
-    width: 550px;
+    width: 700px;
 }
 
 .section2-text h2{

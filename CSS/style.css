@@ -169,7 +169,8 @@ body {
     }
 
     .project-mockup {
-        width: 350px;
+      width: auto;
+      max-width: 100%;
     }
 
     .project-text{
