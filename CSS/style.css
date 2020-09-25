@@ -6,7 +6,7 @@ body {
 /* Nav Bar */ 
 
 .navbar {
-    padding-top: 40px;
+    padding-top: 24px;
     background-color: #FCF8F4;
 }
 .navbar-brand {
@@ -28,6 +28,10 @@ body {
 
 .dropdown-toggle::after {
     display: none;
+}
+
+.navbar-toggler{
+  border-color: transparent;
 }
 
 .dropdown-item:hover{
